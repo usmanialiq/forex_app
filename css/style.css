@@ -1,0 +1,33 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#jumbo1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    margin: 10px;
+}
+
+#region ul {
+    list-style-type: none;
+}
+
+#currencies {
+    list-style-type: none;
+}
+
+#base_currency, #date {
+    border-bottom: 1px solid grey;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    color: teal;
+}
