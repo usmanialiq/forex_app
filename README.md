@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## Welcome to Forex App
 
-You can use the [editor on GitHub](https://github.com/usmanialiq/forex_app/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This app uses an API from [Fixer.io](https://fixer.io), fetching the currency exchange rates of the countries.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Although it is not working because the API I have included does not come with a SSL Encryption, this unencryption is not supported by the environments like [Github](https://github.com) or [Netlify](https:netlify.com).
 
+You can find a working model at [Forex_App](forex-api.surge.sh).
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You can commit changes to your app by changing few details in the javascript file,
 
 ```markdown
-Syntax highlighted code block
+->js/main.js
 
-# Header 1
-## Header 2
-### Header 3
+change the value of the const **API_KEY**
 
-- Bulleted
-- List
+if you want to change the date of the exchange rate, change the const **set_date** as **YYYY-MM-DD**
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+### Scope
 
-[Link](url) and ![Image](src)
-```
+Developers can integrate this repo and scale their version into a much bigger applications by implementing a **Search System**, **Date Picker**, **Currency Converter**. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/usmanialiq/forex_app/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Do read the documentation and features of this API at [Fixer.io](https://fixer.io).
