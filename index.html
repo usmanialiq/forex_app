@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <title>Forex App</title>
+  </head>
+  <body>
+    
+    <div class="container" id="jumbo1">
+        <div class="jumbotron">
+            <h1 class="display-4">Forex App</h1>
+            <p class="lead">This is a simple Forex App, API call is being made from <a href="https://fixer.io">Fixer.io</a></p>
+            <hr class="my-4">
+            <p class="lead">Base Currency: <span id="base_currency"></span><br>Date: <span id="date"></span></p>
+            <p>Currency rates are displayed of various countries according to region.</p>
+            <br>
+            <p class="text-right">Made with <i class="fa fa-heart" style="color: red"></i> by <a href="https://instagram.com/usmanicr7" target="_blank">Usman Ali</a></p>
+        </div>
+    </div>
+
+    <div class="container" id="region">
+
+        <div class="row">
+            
+            <div class="col-sm-12">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+
+                    <div class="col-6">
+                      <p>
+                        <h5 class="card-title">Northern America</h5>
+                        
+                            <ul>
+                              <li id="bermuda"></li>
+                              <li id="canada"></li>
+                              <li id="mexico"></li>
+                              <li id="usa"></li>       
+                            </ul>     
+
+                        <h5 class="card-title">Southern America</h5>
+                           
+                            <ul>
+                              <li id="argen"></li>
+                              <li id="boliv"></li>
+                              <li id="brazil"></li>
+                              <li id="chile"></li>
+                              <li id="colom"></li>
+                              <li id="ecua"></li>
+                              <li id="guya"></li>
+                              <li id="parag"></li>
+                              <li id="peru"></li>
+                              <li id="suri"></li>
+                              <li id="urug"></li>
+                              <li id="venez"></li>
+                            </ul>
+                          
+                        <h5 class="card-title">Northern Europe</h5>
+                        
+                            <ul>
+                              <li id="denmark"></li>
+                              <li id="estonia"></li>
+                              <li id="finland"></li>
+                              <li id="iceland"></li>
+                              <li id="ireland"></li>
+                              <li id="latvia"></li>
+                              <li id="lithuania"></li>
+                              <li id="norway"></li>
+                              <li id="sweden"></li>
+                              <li id="britain"></li>
+                            </ul>
+
+                        <h5 class="card-title">Southern Europe</h5>
+                        
+                            <ul>
+                              <li id="albania"></li>
+                              <li id="andorra"></li>
+                              <li id="bosnia"></li>
+                              <li id="croatia"></li>
+                              <li id="france"></li>
+                              <li id="greece"></li>
+                              <li id="italy"></li>
+                              <li id="malta"></li>
+                              <li id="montenegro"></li>
+                              <li id="macedonia"></li>
+                              <li id="portugal"></li>
+                              <li id="marino"></li>
+                              <li id="serbia"></li>
+                              <li id="slovenia"></li>
+                              <li id="spain"></li>
+                              <li id="vatican"></li>
+                            </ul>
+
+                        <h5 class="card-title">Africa</h5>
+                            
+                            <ul>
+                              <li id="algeria"></li>
+                              <li id="angola"></li>
+                              <li id="benin"></li>
+                              <li id="bostwana"></li>
+                              <li id="faso"></li>
+                              <li id="burundi"></li>
+                              <li id="cabo"></li>
+                              <li id="cameron"></li>
+                              <li id="car"></li>
+                              <li id="chad"></li>
+                              <li id="comoros"></li>
+                              <li id="congo"></li>
+                              <li id="cote"></li>
+                              <li id="djibouti"></li>
+                              <li id="equit"></li>
+                              <li id="eritrea"></li>
+                              <li id="eswatini"></li>
+                              <li id="ethiopia"></li>
+                              <li id="gabon"></li>
+                              <li id="gambia"></li>
+                              <li id="ghana"></li>
+                              <li id="guinea"></li>
+                              <li id="bissau"></li>
+                              <li id="kenya"></li>
+                              <li id="lesotho"></li>
+                              <li id="lineria"></li>
+                              <li id="libya"></li>
+                              <li id="madagascar"></li>
+                              <li id="malawi"></li>
+                              <li id="mali"></li>
+                              <li id="mauritania"></li>
+                              <li id="mauritius"></li>
+                              <li id="morocco"></li>
+                              <li id="mozambique"></li>
+                              <li id="namibia"></li>
+                              <li id="niger"></li>
+                              <li id="nigeria"></li>
+                              <li id="rwanda"></li>
+                              <li id="sao"></li>
+                              <li id="senegal"></li>
+                              <li id="seychelles"></li>
+                              <li id="sierra"></li>
+                              <li id="somalia"></li>
+                              <li id="safrica"></li>
+                              <li id="ssudan"></li>
+                              <li id="tanzania"></li>
+                              <li id="togo"></li>
+                              <li id="tunisia"></li>
+                              <li id="uganda"></li>
+                              <li id="zambia"></li>
+                              <li id="zimbabwe"></li>
+                            </ul>
+                         
+                          </p>
+
+                    </div>
+
+                    <div class="col-6">
+
+                        <p class="card-text">
+
+                            <h5 class="card-title">Middle-East Asia</h5>
+
+                            <ul>
+                              <li id="bahrain"></li>
+                              <li id="cyprus"></li>
+                              <li id="egypt"></li>
+                              <li id="iran"></li>
+                              <li id="israel"></li>
+                              <li id="jordan"></li>
+                              <li id="kuwait"></li>
+                              <li id="lebanon"></li>
+                              <li id="oman"></li>
+                              <li id="qatar"></li>
+                              <li id="sarabia"></li>
+                              <li id="syria"></li>
+                              <li id="turkey"></li>
+                              <li id="uae"></li>
+                              <li id="yemen"></li>
+                            </ul>
+                          <h5 class="card-title">South Asia</h5>
+                              
+                            <ul>
+                              <li id="bangla"></li>
+                              <li id="bhutan"></li>
+                              <li id="inr"></li>
+                              <li id="nepal"></li>
+                              <li id="maldiv"></li>
+                              <li id="pk"></li>
+                              <li id="srilan"></li>
+                            </ul>
+                          <h5 class="card-title">Central Asia</h5>
+                            <ul>
+                              <li id="afg"></li>
+                              <li id="kazak"></li>
+                              <li id="kyr"></li>
+                              <li id="russia"></li>
+                              <li id="tajik"></li>
+                              <li id="turkmen"></li>
+                              <li id="uzbek"></li>
+                            </ul>
+                          <h5 class="card-title">East Asia</h5>
+                            <ul>
+                              <li id="china"></li>
+                              <li id="hong"></li>
+                              <li id="jpn"></li>
+                              <li id="macau"></li>
+                              <li id="mongol"></li>
+                              <li id="nkorea"></li>
+                              <li id="skorea"></li>
+                              <li id="taiwan"></li>
+                            </ul>
+                          <h5 class="card-title">South-East Asia</h5>
+                            <ul>
+                              <li id="brunei"></li>
+                              <li id="combodia"></li>
+                              <li id="indo"></li>
+                              <li id="laos"></li>
+                              <li id="malay"></li>
+                              <li id="myanmar"></li>
+                              <li id="phillip"></li>
+                              <li id="singa"></li>
+                              <li id="thai"></li>
+                              <li id="timor"></li>
+                              <li id="viet"></li>
+                            </ul>
+                          <h5 class="card-title">Austrailia and Oceania</h5>
+                            <ul>
+                              <li id="aust"></li>
+                              <li id="fiji"></li>
+                              <li id="kirib"></li>
+                              <li id="marshal"></li>
+                              <li id="micron"></li>
+                              <li id="nauru"></li>
+                              <li id="nzl"></li>
+                              <li id="palau"></li>
+                              <li id="pjk"></li>
+                              <li id="samoa"></li>
+                              <li id="solomon"></li>
+                              <li id="tonga"></li>
+                              <li id="tuvalu"></li>
+                              <li id="vanuatu"></li>
+                          </ul>
+                        </p>
+
+                    </div>
+
+
+                  </div>
+                  
+
+                    
+                  </div>
+                </div>
+              </div>
+          
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
