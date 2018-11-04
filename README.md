@@ -22,3 +22,6 @@ if you want to change the date of the exchange rate, change the const **set_date
 Developers can integrate this repo and scale their version into a much bigger applications by implementing a **Search System**, **Date Picker**, **Currency Converter**. 
 
 Do read the documentation and features of this API at [Fixer.io](https://fixer.io).
+
+
+It would be much appreciable if credits are included when using it your projects.
