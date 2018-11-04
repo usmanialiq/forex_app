@@ -24,4 +24,4 @@ Developers can integrate this repo and scale their version into a much bigger ap
 Do read the documentation and features of this API at [Fixer.io](https://fixer.io).
 
 
-It would be much appreciable if credits are included when using it your projects.
+It would be much appreciable if credits are included when using it in your projects.
